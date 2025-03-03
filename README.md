@@ -1,1 +1,3 @@
-# FALCON_ERP_SYSTEM
+# FALCON ERP SYSTEM
+Design By Ahmed Ekhwat And Mohamed Ahmed <br>
+with django framwork.
