@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+    {% extends 'main/base.html' %}
+    {% block content %}
     <h1>Hello Tasks Home</h1>
+    <p>Welcom {{name}}
+        {% if age > 40 %}
+        <p> You are old man</p>
+        {% endif %}
+    </p>
+    
+    {% endblock %}
 </body>
 </html>
